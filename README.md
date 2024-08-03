@@ -1,7 +1,8 @@
 # SpotifyStreams-Dashboard
 
 Hi :). This is my portfolio presentation project in Power BI
-Key Features:
+
+#Key Features:
 
 Data Import and Processing: Leveraging Python for efficient data handling, we have utilized custom scripts to download and preprocess your Spotify streaming data. This ensures accurate and up-to-date information within the dashboard.
 
