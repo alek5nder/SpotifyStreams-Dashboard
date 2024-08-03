@@ -1,0 +1,10 @@
+DateTable = 
+    ADDCOLUMNS(CALENDAR(MIN('Spotify Dataset'[Date]),MAX('Spotify Dataset'[Date])),
+    "Year", YEAR ( [Date] ),
+    "Quarter",  QUARTER ( [Date] ),
+    "Quarter (Q)", FORMAT([Date],"\QQ"),
+    "Month", MONTH([Date]),
+    "Month Number", FORMAT( [Date], "mmm"), 
+    "Day of week", WEEKDAY([Date]),
+    "DayName", FORMAT([Date], "dddd")
+)
